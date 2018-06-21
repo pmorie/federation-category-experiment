@@ -27,6 +27,7 @@ type FederatedReplicaSetPlacementStatus struct {
 // FederatedReplicaSetPlacement
 // +k8s:openapi-gen=true
 // +kubebuilder:resource:path=federatedreplicasetplacements
+// +kubebuilder:categories=federation
 type FederatedReplicaSetPlacement struct {
 	metav1.TypeMeta   `json:",inline"`
 	metav1.ObjectMeta `json:"metadata,omitempty"`

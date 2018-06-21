@@ -84,6 +84,9 @@ var (
 			Names: v1beta1.CustomResourceDefinitionNames{
 				Kind:   "FederatedReplicaSet",
 				Plural: "federatedreplicasets",
+				Categories: []string{
+					"federation",
+				},
 			},
 			Scope: "Namespaced",
 			Validation: &v1beta1.CustomResourceValidation{
@@ -123,6 +126,9 @@ var (
 			Names: v1beta1.CustomResourceDefinitionNames{
 				Kind:   "FederatedReplicaSetOverride",
 				Plural: "federatedreplicasetoverrides",
+				Categories: []string{
+					"federation",
+				},
 			},
 			Scope: "Namespaced",
 			Validation: &v1beta1.CustomResourceValidation{
@@ -162,6 +168,9 @@ var (
 			Names: v1beta1.CustomResourceDefinitionNames{
 				Kind:   "FederatedReplicaSetPlacement",
 				Plural: "federatedreplicasetplacements",
+				Categories: []string{
+					"federation",
+				},
 			},
 			Scope: "Namespaced",
 			Validation: &v1beta1.CustomResourceValidation{

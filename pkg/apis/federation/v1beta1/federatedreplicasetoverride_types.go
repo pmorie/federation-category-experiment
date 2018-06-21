@@ -27,6 +27,7 @@ type FederatedReplicaSetOverrideStatus struct {
 // FederatedReplicaSetOverride
 // +k8s:openapi-gen=true
 // +kubebuilder:resource:path=federatedreplicasetoverrides
+// +kubebuilder:categories=federation
 type FederatedReplicaSetOverride struct {
 	metav1.TypeMeta   `json:",inline"`
 	metav1.ObjectMeta `json:"metadata,omitempty"`

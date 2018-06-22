@@ -1,0 +1,8 @@
+note: federatedreplicaset example
+sample: |
+  apiVersion: v1beta1
+  kind: federatedreplicaset
+  metadata:
+    name: federatedreplicaset
+  spec:
+    todo: "write me"

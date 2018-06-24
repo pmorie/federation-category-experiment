@@ -1,0 +1,26 @@
+apiVersion: federation.pmorie.toy/v1beta1
+kind: FederatedReplicaSet
+metadata:
+  name: my-rs
+  labels:
+    app: my-federated-app
+spec:
+  foo: bar
+---
+apiVersion: federation.pmorie.toy/v1beta1
+kind: FederatedReplicaSetOverride
+metadata:
+  name: my-rs
+  labels:
+    app: my-federated-app
+spec:
+  foo: bar
+---
+apiVersion: federation.pmorie.toy/v1beta1
+kind: FederatedReplicaSetPlacement
+metadata:
+  name: my-rs
+  labels:
+    app: my-federated-app
+spec:
+  foo: bar

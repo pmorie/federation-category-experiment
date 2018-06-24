@@ -1,0 +1,8 @@
+note: federatedreplicasetplacement example
+sample: |
+  apiVersion: v1beta1
+  kind: federatedreplicasetplacement
+  metadata:
+    name: federatedreplicasetplacement
+  spec:
+    todo: "write me"

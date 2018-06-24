@@ -1,0 +1,6 @@
+apiVersion: federation.pmorie.toy/v1beta1
+kind: FederatedReplicaSetPlacement
+metadata:
+  name: federatedreplicasetplacement-example
+spec:
+  foo: bar

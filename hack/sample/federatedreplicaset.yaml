@@ -1,0 +1,6 @@
+apiVersion: federation.pmorie.toy/v1beta1
+kind: FederatedReplicaSet
+metadata:
+  name: federatedreplicaset-example
+spec:
+  foo: bar

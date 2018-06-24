@@ -1,0 +1,8 @@
+note: federatedreplicasetoverride example
+sample: |
+  apiVersion: v1beta1
+  kind: federatedreplicasetoverride
+  metadata:
+    name: federatedreplicasetoverride
+  spec:
+    todo: "write me"
